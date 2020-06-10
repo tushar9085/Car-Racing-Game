@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Car Racing Game", "Car Racing Game\Car Racing Game.vcxproj", "{B275C6FD-2B36-45A8-BBFC-4A989A582A3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B275C6FD-2B36-45A8-BBFC-4A989A582A3A}.Debug|x64.ActiveCfg = Debug|x64
+		{B275C6FD-2B36-45A8-BBFC-4A989A582A3A}.Debug|x64.Build.0 = Debug|x64
+		{B275C6FD-2B36-45A8-BBFC-4A989A582A3A}.Debug|x86.ActiveCfg = Debug|Win32
+		{B275C6FD-2B36-45A8-BBFC-4A989A582A3A}.Debug|x86.Build.0 = Debug|Win32
+		{B275C6FD-2B36-45A8-BBFC-4A989A582A3A}.Release|x64.ActiveCfg = Release|x64
+		{B275C6FD-2B36-45A8-BBFC-4A989A582A3A}.Release|x64.Build.0 = Release|x64
+		{B275C6FD-2B36-45A8-BBFC-4A989A582A3A}.Release|x86.ActiveCfg = Release|Win32
+		{B275C6FD-2B36-45A8-BBFC-4A989A582A3A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA6EF343-BE72-46BC-804C-0E0C104BE822}
+	EndGlobalSection
+EndGlobal
