@@ -351,7 +351,7 @@ int main()
 
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Enter)) {
                 gameSound.play();
-                gameSound.setLoop();
+                gameSound.setLoop(true);
                 point = 0;
                 carspeed = 0.2f;
                 playerCarSpeed = 0.2f;
