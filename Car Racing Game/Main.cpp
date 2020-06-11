@@ -288,18 +288,22 @@ int main()
             //CARS & PLAYER CAR COLLISION
 
             if (car1.getGlobalBounds().intersects(playerCarSprite.getGlobalBounds())) {
+                gameSound.stop();
                 crash.play();
                 gameover = true;
             }
             if (car2.getGlobalBounds().intersects(playerCarSprite.getGlobalBounds())) {
+                gameSound.stop();
                 crash.play();
                 gameover = true;
             }
             if (car3.getGlobalBounds().intersects(playerCarSprite.getGlobalBounds())) {
+                gameSound.stop();
                 crash.play();
                 gameover = true;
             }
             if (car4.getGlobalBounds().intersects(playerCarSprite.getGlobalBounds())) {
+                gameSound.stop();
                 crash.play();
                 gameover = true;
             }
@@ -346,6 +350,8 @@ int main()
             //CHECKING IF ENTER PRESSED
 
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Enter)) {
+                gameSound.play();
+                gameSound.setLoop();
                 point = 0;
                 carspeed = 0.2f;
                 playerCarSpeed = 0.2f;
